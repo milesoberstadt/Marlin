@@ -66,6 +66,7 @@
  * documentation about a specific Marlin release.
  */
 //#define WEBSITE_URL "https://marlinfw.org"
+#define WEBSITE_URL __DATE__ " " __TIME__
 
 /**
  * Set the vendor info the serial USB interface, if changable

@@ -573,7 +573,7 @@
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
 #define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 200
+#define EXTRUDE_MAXLENGTH 480
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -743,7 +743,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 // from ender 3 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 100 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 139 }
 
 /**
  * Default Max Feed Rate (mm/s)
