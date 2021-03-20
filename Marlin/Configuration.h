@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Dan SKR"
+#define CUSTOM_MACHINE_NAME "krista"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -742,8 +742,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-// from ender 3 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 139 }
+// from ender 3 pro
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 79.2, 409.7, 142 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1124,8 +1124,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 200
-#define Y_BED_SIZE 200
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
